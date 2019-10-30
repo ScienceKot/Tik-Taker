@@ -18,9 +18,9 @@ This system was created in 3 steps:
   2. I deleted all the last turns in every game - because they also don't carry with them any usefull information.
   3. I deleted all games which resulted in a tie in order to obtain games that will drive the game to the victory of one part.
   4. I applied dummy variable on the row representation of the game board. 0 -> [0, 0], 1 -> [0, 1], 2 -> [1, 0].
-    0 | 0 | 1             [0, 0] | [0, 0] | [0, 1]
-    0 | 2 | 2    =====>   [0, 0] | [1, 0] | [1, 0]
-    1 | 0 | 0             [0, 1] | [0, 0] | [0, 0]
+      0 | 0 | 1             [0, 0] | [0, 0] | [0, 1]
+      0 | 2 | 2    =====>   [0, 0] | [1, 0] | [1, 0]
+      1 | 0 | 0             [0, 1] | [0, 0] | [0, 0]
   5. The dataset was split in 2 ones - X_moves (X_moves.csv) & O_moves (O_moves.csv).
   
   The result dataset have the following columns.
